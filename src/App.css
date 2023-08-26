@@ -1,0 +1,72 @@
+.appTodo{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.nav{
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.navItem h4{
+    color: #000000;
+}
+
+.addTodo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.addTodo input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid #6e6e6e33;
+}
+.addTodo button{
+    padding: 10px 25px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #1d76fc;
+    border: 1px solid #a8e6ff33;
+    color: #fff;
+}
+.item{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.list{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.text{
+    text-decoration: line-through;
+}
+.btn{
+    width: 300px;
+    display: flex;
+    justify-content: end;
+}
+.btn button{
+    background-color:transparent;
+    border: none;
+}
+.btn img{
+    width: 30px;
+    height: 30px;
+}
